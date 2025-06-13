@@ -16,7 +16,7 @@ public class CupomFiscalConcreteOutbox extends StandardPortOutbox implements Cal
     public Map<String, Double> calculaTaxas(List<Item> items) {
         // CalculadoraTaxaInterfacePort calculadoraExterna;
         CalculadoraTaxaInterfacePort calculadoraExterna = 
-            (CalculadoraTaxaInterfacePort)externalPort;
+            (CalculadoraTaxaInterfacePort) externalPort;
         return calculadoraExterna.calculaTaxas(items);
     }
 }
