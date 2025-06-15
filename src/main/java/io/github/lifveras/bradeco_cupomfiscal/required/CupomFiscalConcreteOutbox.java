@@ -1,12 +1,11 @@
-package io.github.lifveras.bradeco_template_dependencia_pic.required;
+package io.github.lifveras.bradeco_cupomfiscal.required;
 
 import java.util.List;
 import java.util.Map;
 
-import io.github.lifveras.bradeco_template_dependencia_pic.internal.model.Item;
-import io.github.lifveras.bradeco_template_dependencia_pic.provided.CalculadoraTaxaInterfacePort;
-import io.github.lifveras.bradeco_template_dependencia_pic.provided.interfaces.CalculadoraTaxaInterface;
-import io.github.lifveras.bradeco_template_dependencia_pic.provided.interfaces.CupomFiscalInterface;
+import io.github.lifveras.bradeco_calctaxa.internal.model.Item;
+import io.github.lifveras.bradeco_calctaxa.provided.CalculadoraTaxaInterfacePort;
+import io.github.lifveras.bradeco_calctaxa.provided.interfaces.CalculadoraTaxaInterface;
 import io.github.lifveras.bredeco_pic_abstract.required.StandardPortOutbox;
 
 // Definir somente se houver componente requerido
